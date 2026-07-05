@@ -51,7 +51,7 @@ I believe, by now you are familiar with built-in functions. Let us do one more p
 
 ![Min Max Sum](../images/builtin-functional-final.png)
 
-## Variables
+## Variables 
 
 Variables store data in a computer memory. Mnemonic variables are recommended to use in many programming languages. A mnemonic variable is a variable name that can be easily remembered and associated. A variable refers to a memory address in which data is stored.
 Number at the beginning, special character, hyphen are not allowed when naming a variable. A variable can have a short name (like x, y, z), but a more descriptive name (firstname, lastname, age, country) is highly recommended.
