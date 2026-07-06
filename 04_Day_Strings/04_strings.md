@@ -92,7 +92,7 @@ print(len(full_name)) # 16
 In Python and other programming languages \ followed by a character is an escape sequence. Let us see the most common escape characters:
 
 - \n: new line
-- \t: Tab means(8 spaces) 
+- \t: Tab means(8 spaces)
 - \\\\: Back slash
 - \\': Single quote (')
 - \\": Double quote (")
@@ -304,7 +304,7 @@ print(challenge.capitalize()) # 'Thirty days of python'
 ```py
 challenge = 'thirty days of python'
 print(challenge.count('y')) # 3
-print(challenge.count('y', 7, 14)) # 1, 
+print(challenge.count('y', 7, 14)) # 1,
 print(challenge.count('th')) # 2`
 ```
 
@@ -340,8 +340,8 @@ print(challenge.rfind('y'))  # 16
 print(challenge.rfind('th')) # 17
 ```
 
-- format(): formats string into a nicer output  
-   More about string formatting check this [link](https://www.programiz.com/python-programming/methods/string/format)
+- format(): formats string into a nicer output
+  More about string formatting check this [link](https://www.programiz.com/python-programming/methods/string/format)
 
 ```py
 first_name = 'Asabeneh'
@@ -359,7 +359,7 @@ result = 'The area of a circle with radius {} is {}'.format(str(radius), str(are
 print(result) # The area of a circle with radius 10 is 314
 ```
 
-- index(): Returns the lowest index of a substring, additional arguments indicate starting and ending index (default 0 and string length - 1). If the substring is not found it raises a valueError. 
+- index(): Returns the lowest index of a substring, additional arguments indicate starting and ending index (default 0 and string length - 1). If the substring is not found it raises a valueError.
 
 ```py
 challenge = 'thirty days of python'
@@ -413,7 +413,7 @@ print(challenge.isdecimal())  # False
 challenge = '123'
 print(challenge.isdecimal())  # True
 challenge = '\u00B2'
-print(challenge.isdigit())   # True 
+print(challenge.isdigit())   # True
 challenge = '12 3'
 print(challenge.isdecimal())  # False, space not allowed
 ```
@@ -545,7 +545,7 @@ print(challenge.startswith('thirty')) # False
 9. Cut(slice) out the first word of _Coding For All_ string.
 10. Check if _Coding For All_ string contains a word Coding using the method index, find or other methods.
 11. Replace the word coding in the string 'Coding For All' to Python.
-12. Change "Python for Everyone" to "Python for All" using the replace method or other methods. 
+12. Change "Python for Everyone" to "Python for All" using the replace method or other methods.
 13. Split the string 'Coding For All' using space as the separator (split()) .
 14. "Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon" split the string at the comma.
 15. What is the character at index 0 in the string _Coding For All_.
@@ -601,5 +601,3 @@ The area of a circle with radius 10 is 314 meters square.
 🎉 CONGRATULATIONS ! 🎉
 
 [<< Day 3](../03_Day_Operators/03_operators.md) | [Day 5 >>](../05_Day_Lists/05_lists.md)
-
-
