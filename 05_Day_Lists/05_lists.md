@@ -91,7 +91,7 @@ fruits = ['banana', 'orange', 'mango', 'lemon']                     # list of fr
 vegetables = ['Tomato', 'Potato', 'Cabbage','Onion', 'Carrot']      # list of vegetables
 animal_products = ['milk', 'meat', 'butter', 'yoghurt']             # list of animal products
 web_techs = ['HTML', 'CSS', 'JS', 'React','Redux', 'Node', 'MongDB'] # list of web technologies
-countries = ['Finland', 'Estonia', 'Denmark', 'Sweden', 'Norway'] 
+countries = ['Finland', 'Estonia', 'Denmark', 'Sweden', 'Norway']
 
 # Print the lists and its length
 print('Fruits:', fruits)
@@ -175,7 +175,7 @@ print(rest)           # ['item4', 'item5']
 ```py
 # First Example
 fruits = ['banana', 'orange', 'mango', 'lemon','lime','apple']
-first_fruit, second_fruit, third_fruit, *rest = fruits 
+first_fruit, second_fruit, third_fruit, *rest = fruits
 print(first_fruit)     # banana
 print(second_fruit)    # orange
 print(third_fruit)     # mango
@@ -190,7 +190,7 @@ print(tenth)          # 10
 # Third Example about unpacking list
 countries = ['Germany', 'France','Belgium','Sweden','Denmark','Finland','Norway','Iceland','Estonia']
 gr, fr, bg, sw, *scandic, es = countries
-print(gr) 
+print(gr)
 print(fr)
 print(bg)
 print(sw)
@@ -507,7 +507,7 @@ To sort lists we can use _sort()_ method or _sorted()_ built-in functions. The _
   ages = [22, 19, 24, 25, 26, 24, 25, 24]
   ages.sort()
   print(ages) #  [19, 22, 24, 24, 24, 25, 25, 26]
- 
+
   ages.sort(reverse=True)
   print(ages) #  [26, 25, 25, 24, 24, 24, 22, 19]
   ```
